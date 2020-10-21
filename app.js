@@ -9,7 +9,7 @@ function cursor(e) {
 }
 
 navLinks.forEach((link) => {
-  link.addEventListener("mouseover", (e) => {
+  link.addEventListener("mouseenter", (e) => {
     mouseCursor.classList.add("cursor-grow");
     // link.classList.add("test");
   });
