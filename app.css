@@ -48,7 +48,12 @@ a {
   z-index: 100;
 }
 
-/* .link-anim {
+@media only screen and (max-width: 960px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+} /* .link-anim {
   transform: translate3d(0px, 0px, 0px);
 } */
 
