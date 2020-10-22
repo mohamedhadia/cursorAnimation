@@ -9,6 +9,8 @@ function cursor(e) {
 }
 
 navLinks.forEach((link) => {
+  VanillaTilt.init(link);
+
   link.addEventListener("mouseenter", (e) => {
     mouseCursor.classList.add("cursor-grow");
     // link.classList.add("test");
